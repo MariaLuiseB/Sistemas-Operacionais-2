@@ -1,0 +1,22 @@
+aula 3 13.03
+
+S.O possui dois modos:
+
+- Standalone
+- Hosted
+
+Boot (Programa Start)
+
+Pilha: é a memória que começa pelo número mais alto.
+
+Registrador SP(Stack Pointer): aponta para o endereço onde a PILHA começa
+
+PC(Programa Counter): Aponta para o endereço onde o PROGRAMA começa
+
+csrr →instrução para ler o que está dentro do t0, acessa registradores de sistema operacional
+
+mhartid → retorna um identificador do core(hart)
+
+j → jump 
+
+uart → dispositivo que intermedia a entrada e saída do teclado para a tela 
