@@ -21,7 +21,8 @@ OBJ = \
 	boot.o \
 	main.o \
 	uart.o \
-	printf.o
+	printf.o \
+	memory.o 
 
 %.o: %.c 
 	$(CC) $(CFLAGS) $<

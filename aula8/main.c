@@ -51,8 +51,9 @@ void entry() { // o boot salta para a função entry
     printf("ponteiro:%p", a);
 
     puts("\n");
-    char * adjetivo = "linda";
-    printf("A malu eh %s", adjetivo);
+    char * amem = "passar nessa materia!";
+    printf("A malu vai %s", amem);
+    puts(" \u2764");
     
     // DIGITAR E LE -- INTERAÇÃO COM O USUÁRIO 
     //int c;

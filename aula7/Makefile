@@ -7,7 +7,7 @@ CFLAGS += -march=rv64gc  # arquitetura RISC-V de 64 bits
 # tipos longos e ponteiros são de 64 bits. Inteiros são de 32 bits
 CFLAGS += -mabi=lp64  
 CFLAGS += -Wall # Mostra mais mensagens de warning
-CLFLAGS += -g  # Gera informações extra p/ depuração
+# CLFLAGS += -g  # Gera informações extra p/ depuração
 CFLAGS += -O0 # Otimiza o código o mínimo possível
 CFLAGS += -c  # compila mas não invoca o linker
 
