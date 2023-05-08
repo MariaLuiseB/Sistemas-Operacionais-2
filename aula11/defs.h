@@ -17,5 +17,5 @@ int perimetro (int lados, ...); // n -> quantidade de lados e ... -> valores de 
 
 //GERENCIAMENTO DE MEMÓRIA (Kalloc, kfree)
 void memory_init();
-int pages_init();
-
+void pages_init();
+void* kalloc (int);
